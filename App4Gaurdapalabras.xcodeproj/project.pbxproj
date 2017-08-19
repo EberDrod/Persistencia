@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D0AB7731F45AD1700070B72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0AB7721F45AD1700070B72 /* AppDelegate.swift */; };
+		2D0AB7751F45AD1700070B72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0AB7741F45AD1700070B72 /* ViewController.swift */; };
+		2D0AB7781F45AD1700070B72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D0AB7761F45AD1700070B72 /* Main.storyboard */; };
+		2D0AB77B1F45AD1700070B72 /* App4Gaurdapalabras.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2D0AB7791F45AD1700070B72 /* App4Gaurdapalabras.xcdatamodeld */; };
+		2D0AB77D1F45AD1700070B72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D0AB77C1F45AD1700070B72 /* Assets.xcassets */; };
+		2D0AB7801F45AD1700070B72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D0AB77E1F45AD1700070B72 /* LaunchScreen.storyboard */; };
+		2D0AB78B1F45AD1700070B72 /* App4GaurdapalabrasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0AB78A1F45AD1700070B72 /* App4GaurdapalabrasTests.swift */; };
+		2D0AB7961F45AD1700070B72 /* App4GaurdapalabrasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0AB7951F45AD1700070B72 /* App4GaurdapalabrasUITests.swift */; };
+		2D0AB7A41F45AFE500070B72 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0AB7A31F45AFE500070B72 /* TableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D0AB7871F45AD1700070B72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D0AB7671F45AD1700070B72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D0AB76E1F45AD1700070B72;
+			remoteInfo = App4Gaurdapalabras;
+		};
+		2D0AB7921F45AD1700070B72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D0AB7671F45AD1700070B72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D0AB76E1F45AD1700070B72;
+			remoteInfo = App4Gaurdapalabras;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D0AB76F1F45AD1700070B72 /* App4Gaurdapalabras.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App4Gaurdapalabras.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D0AB7721F45AD1700070B72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2D0AB7741F45AD1700070B72 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2D0AB7771F45AD1700070B72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2D0AB77A1F45AD1700070B72 /* App4Gaurdapalabras.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = App4Gaurdapalabras.xcdatamodel; sourceTree = "<group>"; };
+		2D0AB77C1F45AD1700070B72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D0AB77F1F45AD1700070B72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2D0AB7811F45AD1700070B72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D0AB7861F45AD1700070B72 /* App4GaurdapalabrasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = App4GaurdapalabrasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D0AB78A1F45AD1700070B72 /* App4GaurdapalabrasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App4GaurdapalabrasTests.swift; sourceTree = "<group>"; };
+		2D0AB78C1F45AD1700070B72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D0AB7911F45AD1700070B72 /* App4GaurdapalabrasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = App4GaurdapalabrasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D0AB7951F45AD1700070B72 /* App4GaurdapalabrasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App4GaurdapalabrasUITests.swift; sourceTree = "<group>"; };
+		2D0AB7971F45AD1700070B72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D0AB7A31F45AFE500070B72 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewController.swift; path = ../TableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D0AB76C1F45AD1700070B72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D0AB7831F45AD1700070B72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D0AB78E1F45AD1700070B72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D0AB7661F45AD1700070B72 = {
+			isa = PBXGroup;
+			children = (
+				2D0AB7711F45AD1700070B72 /* App4Gaurdapalabras */,
+				2D0AB7891F45AD1700070B72 /* App4GaurdapalabrasTests */,
+				2D0AB7941F45AD1700070B72 /* App4GaurdapalabrasUITests */,
+				2D0AB7701F45AD1700070B72 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D0AB7701F45AD1700070B72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D0AB76F1F45AD1700070B72 /* App4Gaurdapalabras.app */,
+				2D0AB7861F45AD1700070B72 /* App4GaurdapalabrasTests.xctest */,
+				2D0AB7911F45AD1700070B72 /* App4GaurdapalabrasUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D0AB7711F45AD1700070B72 /* App4Gaurdapalabras */ = {
+			isa = PBXGroup;
+			children = (
+				2D0AB7721F45AD1700070B72 /* AppDelegate.swift */,
+				2D0AB7741F45AD1700070B72 /* ViewController.swift */,
+				2D0AB7A31F45AFE500070B72 /* TableViewController.swift */,
+				2D0AB7761F45AD1700070B72 /* Main.storyboard */,
+				2D0AB77C1F45AD1700070B72 /* Assets.xcassets */,
+				2D0AB77E1F45AD1700070B72 /* LaunchScreen.storyboard */,
+				2D0AB7811F45AD1700070B72 /* Info.plist */,
+				2D0AB7791F45AD1700070B72 /* App4Gaurdapalabras.xcdatamodeld */,
+			);
+			path = App4Gaurdapalabras;
+			sourceTree = "<group>";
+		};
+		2D0AB7891F45AD1700070B72 /* App4GaurdapalabrasTests */ = {
+			isa = PBXGroup;
+			children = (
+				2D0AB78A1F45AD1700070B72 /* App4GaurdapalabrasTests.swift */,
+				2D0AB78C1F45AD1700070B72 /* Info.plist */,
+			);
+			path = App4GaurdapalabrasTests;
+			sourceTree = "<group>";
+		};
+		2D0AB7941F45AD1700070B72 /* App4GaurdapalabrasUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2D0AB7951F45AD1700070B72 /* App4GaurdapalabrasUITests.swift */,
+				2D0AB7971F45AD1700070B72 /* Info.plist */,
+			);
+			path = App4GaurdapalabrasUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D0AB76E1F45AD1700070B72 /* App4Gaurdapalabras */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D0AB79A1F45AD1700070B72 /* Build configuration list for PBXNativeTarget "App4Gaurdapalabras" */;
+			buildPhases = (
+				2D0AB76B1F45AD1700070B72 /* Sources */,
+				2D0AB76C1F45AD1700070B72 /* Frameworks */,
+				2D0AB76D1F45AD1700070B72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = App4Gaurdapalabras;
+			productName = App4Gaurdapalabras;
+			productReference = 2D0AB76F1F45AD1700070B72 /* App4Gaurdapalabras.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D0AB7851F45AD1700070B72 /* App4GaurdapalabrasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D0AB79D1F45AD1700070B72 /* Build configuration list for PBXNativeTarget "App4GaurdapalabrasTests" */;
+			buildPhases = (
+				2D0AB7821F45AD1700070B72 /* Sources */,
+				2D0AB7831F45AD1700070B72 /* Frameworks */,
+				2D0AB7841F45AD1700070B72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D0AB7881F45AD1700070B72 /* PBXTargetDependency */,
+			);
+			name = App4GaurdapalabrasTests;
+			productName = App4GaurdapalabrasTests;
+			productReference = 2D0AB7861F45AD1700070B72 /* App4GaurdapalabrasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2D0AB7901F45AD1700070B72 /* App4GaurdapalabrasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D0AB7A01F45AD1700070B72 /* Build configuration list for PBXNativeTarget "App4GaurdapalabrasUITests" */;
+			buildPhases = (
+				2D0AB78D1F45AD1700070B72 /* Sources */,
+				2D0AB78E1F45AD1700070B72 /* Frameworks */,
+				2D0AB78F1F45AD1700070B72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D0AB7931F45AD1700070B72 /* PBXTargetDependency */,
+			);
+			name = App4GaurdapalabrasUITests;
+			productName = App4GaurdapalabrasUITests;
+			productReference = 2D0AB7911F45AD1700070B72 /* App4GaurdapalabrasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D0AB7671F45AD1700070B72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = EP;
+				TargetAttributes = {
+					2D0AB76E1F45AD1700070B72 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = FV6F8S55B8;
+						ProvisioningStyle = Automatic;
+					};
+					2D0AB7851F45AD1700070B72 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = FV6F8S55B8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2D0AB76E1F45AD1700070B72;
+					};
+					2D0AB7901F45AD1700070B72 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = FV6F8S55B8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2D0AB76E1F45AD1700070B72;
+					};
+				};
+			};
+			buildConfigurationList = 2D0AB76A1F45AD1700070B72 /* Build configuration list for PBXProject "App4Gaurdapalabras" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D0AB7661F45AD1700070B72;
+			productRefGroup = 2D0AB7701F45AD1700070B72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D0AB76E1F45AD1700070B72 /* App4Gaurdapalabras */,
+				2D0AB7851F45AD1700070B72 /* App4GaurdapalabrasTests */,
+				2D0AB7901F45AD1700070B72 /* App4GaurdapalabrasUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D0AB76D1F45AD1700070B72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D0AB7801F45AD1700070B72 /* LaunchScreen.storyboard in Resources */,
+				2D0AB77D1F45AD1700070B72 /* Assets.xcassets in Resources */,
+				2D0AB7781F45AD1700070B72 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D0AB7841F45AD1700070B72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D0AB78F1F45AD1700070B72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D0AB76B1F45AD1700070B72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D0AB77B1F45AD1700070B72 /* App4Gaurdapalabras.xcdatamodeld in Sources */,
+				2D0AB7751F45AD1700070B72 /* ViewController.swift in Sources */,
+				2D0AB7731F45AD1700070B72 /* AppDelegate.swift in Sources */,
+				2D0AB7A41F45AFE500070B72 /* TableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D0AB7821F45AD1700070B72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D0AB78B1F45AD1700070B72 /* App4GaurdapalabrasTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D0AB78D1F45AD1700070B72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D0AB7961F45AD1700070B72 /* App4GaurdapalabrasUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D0AB7881F45AD1700070B72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D0AB76E1F45AD1700070B72 /* App4Gaurdapalabras */;
+			targetProxy = 2D0AB7871F45AD1700070B72 /* PBXContainerItemProxy */;
+		};
+		2D0AB7931F45AD1700070B72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D0AB76E1F45AD1700070B72 /* App4Gaurdapalabras */;
+			targetProxy = 2D0AB7921F45AD1700070B72 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2D0AB7761F45AD1700070B72 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D0AB7771F45AD1700070B72 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2D0AB77E1F45AD1700070B72 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D0AB77F1F45AD1700070B72 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D0AB7981F45AD1700070B72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2D0AB7991F45AD1700070B72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D0AB79B1F45AD1700070B72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FV6F8S55B8;
+				INFOPLIST_FILE = App4Gaurdapalabras/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Caliente.App4Gaurdapalabras;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2D0AB79C1F45AD1700070B72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FV6F8S55B8;
+				INFOPLIST_FILE = App4Gaurdapalabras/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Caliente.App4Gaurdapalabras;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2D0AB79E1F45AD1700070B72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = FV6F8S55B8;
+				INFOPLIST_FILE = App4GaurdapalabrasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Caliente.App4GaurdapalabrasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/App4Gaurdapalabras.app/App4Gaurdapalabras";
+			};
+			name = Debug;
+		};
+		2D0AB79F1F45AD1700070B72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = FV6F8S55B8;
+				INFOPLIST_FILE = App4GaurdapalabrasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Caliente.App4GaurdapalabrasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/App4Gaurdapalabras.app/App4Gaurdapalabras";
+			};
+			name = Release;
+		};
+		2D0AB7A11F45AD1700070B72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = FV6F8S55B8;
+				INFOPLIST_FILE = App4GaurdapalabrasUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Caliente.App4GaurdapalabrasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = App4Gaurdapalabras;
+			};
+			name = Debug;
+		};
+		2D0AB7A21F45AD1700070B72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = FV6F8S55B8;
+				INFOPLIST_FILE = App4GaurdapalabrasUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Caliente.App4GaurdapalabrasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = App4Gaurdapalabras;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D0AB76A1F45AD1700070B72 /* Build configuration list for PBXProject "App4Gaurdapalabras" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D0AB7981F45AD1700070B72 /* Debug */,
+				2D0AB7991F45AD1700070B72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D0AB79A1F45AD1700070B72 /* Build configuration list for PBXNativeTarget "App4Gaurdapalabras" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D0AB79B1F45AD1700070B72 /* Debug */,
+				2D0AB79C1F45AD1700070B72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D0AB79D1F45AD1700070B72 /* Build configuration list for PBXNativeTarget "App4GaurdapalabrasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D0AB79E1F45AD1700070B72 /* Debug */,
+				2D0AB79F1F45AD1700070B72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D0AB7A01F45AD1700070B72 /* Build configuration list for PBXNativeTarget "App4GaurdapalabrasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D0AB7A11F45AD1700070B72 /* Debug */,
+				2D0AB7A21F45AD1700070B72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2D0AB7791F45AD1700070B72 /* App4Gaurdapalabras.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2D0AB77A1F45AD1700070B72 /* App4Gaurdapalabras.xcdatamodel */,
+			);
+			currentVersion = 2D0AB77A1F45AD1700070B72 /* App4Gaurdapalabras.xcdatamodel */;
+			path = App4Gaurdapalabras.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2D0AB7671F45AD1700070B72 /* Project object */;
+}
